@@ -34,7 +34,7 @@ public class CustomerClient {
     }
 
     public void updateCustomer(UUID customerId, CustomerDto customerDto) {
-        restTemplate.put(apihost + CUSTOMER_PATH_V1 + "/" + customerId.toString(), customerDto);
+        restTemplate.put(apihost + CUSTOMER_PATH_V1 + customerId.toString(), customerDto);
     }
 
     public void deleteCustomer(UUID customerId) {
