@@ -13,7 +13,7 @@ import java.util.UUID;
  * Created by Jan Balangue on 12/4/20.
  */
 @Component
-@ConfigurationProperties(value = "sfg.brewery", ignoreUnknownFields = false)
+@ConfigurationProperties(value = "sfg.customer", ignoreUnknownFields = false)
 public class CustomerClient {
 
     public final String CUSTOMER_PATH_V1 = "/api/v1/customer/";
